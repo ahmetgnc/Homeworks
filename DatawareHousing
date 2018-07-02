@@ -1,0 +1,11 @@
+1) A data warehousing is a technique for collecting and managing data from varied sources to provide meaningful business insights.
+2)ETL is short for extract, transform, load, three database functions that are combined into one tool to pull data out of one database and place it into another database.
+3)An entity-relationship diagram is a data modeling technique that graphically illustrates an information system’s entities and the relationships between those entities. 
+An ERD is a conceptual and representational model of data used to represent the entity framework infrastructure.
+4)An Operational Data Store is a module in the Data Warehouse that contains the most latest snapshot of Operational Data. It is designed to contain atomic or low-level
+ data with limited history for “Real Time” or “Near Real Time” (NRT) reporting on frequent basis.
+5)  -The first difference between View and materialized view is that In Views query result is not stored in the disk or database but Materialized view allow to store the query 
+     result in disk or table.
+    -Performance of View is less than Materialized view.
+    -Last difference between View vs Materialized View is that In case of Materialized view we need an extra trigger or some automatic method so that we can keep MV refreshed,
+     this is not required for views in the database.
